@@ -9,42 +9,36 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-    var player: AVAudioPlayer?
-
+    var audioPlayer: AVAudioPlayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     @IBAction func notePressed(_ sender: UIButton) {
         
-        print(sender.tag)
+        let SelectedSoundFileName: String = "note\(sender.tag)"
         
-        let note = "note" + String(sender.tag)
-        
-        guard let url = Bundle.main.url(forResource: note, withExtension: "wav") else { return }
-        
-        do {
-            
-            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
-            try AVAudioSession.sharedInstance().setActive(true)
-        
-            player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.wav.rawValue)
-            
-            guard let player = player else { return }
-            
-            player.play()
-            
-        } catch let error {
-            
-            print(error.localizedDescription)
-            
-        }
+        playSound(soundFileName: SelectedSoundFileName)
         
     }
     
+    func playSound(soundFileName: String) {
+        
+        let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "wav")
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        
+        catch {
+            print(error)
+        }
+        
+        audioPlayer.play()
+        
+    }
     
 }
-
