@@ -1,6 +1,6 @@
 # Xylophone App
 
-Simple xylophone app for iOS
+Simple xylophone app built with Swift 4, Xcode 10.1, for iOS 12.1
 
 ### Screenshot
 
