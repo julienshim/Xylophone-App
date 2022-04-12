@@ -35,7 +35,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="55s-S0-oYK" secondAttribute="bottom" id="1Kk-xF-Cc1"/>
                                             <constraint firstItem="55s-S0-oYK" firstAttribute="leading" secondItem="qCX-zH-lQ0" secondAttribute="leading" constant="5" id="2LX-gn-1C0"/>
@@ -58,7 +57,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="vwB-g3-EVL" firstAttribute="top" secondItem="gKb-8s-nd0" secondAttribute="top" id="Jz5-dE-GZ6"/>
                                             <constraint firstAttribute="trailing" secondItem="vwB-g3-EVL" secondAttribute="trailing" constant="10" id="Ogt-m7-KCe"/>
@@ -81,7 +79,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="fB8-f4-DMc" secondAttribute="bottom" id="23Z-Xo-cVe"/>
                                             <constraint firstItem="fB8-f4-DMc" firstAttribute="top" secondItem="zQR-X0-chq" secondAttribute="top" id="4H5-cB-JJ0"/>
@@ -104,7 +101,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="O2V-cQ-Y0i" secondAttribute="trailing" constant="20" id="Z6L-kS-jkM"/>
                                             <constraint firstItem="O2V-cQ-Y0i" firstAttribute="top" secondItem="lKp-gn-tWA" secondAttribute="top" id="bc6-9Q-iOk"/>
@@ -127,7 +123,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Sia-ch-TJF" secondAttribute="bottom" id="HVW-pm-Odm"/>
                                             <constraint firstItem="Sia-ch-TJF" firstAttribute="leading" secondItem="D3j-SE-kUV" secondAttribute="leading" constant="30" id="IDb-S3-vh2"/>
@@ -150,7 +145,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="HTe-uH-Rca" secondAttribute="bottom" id="0Pc-Z0-RmT"/>
                                             <constraint firstAttribute="trailing" secondItem="HTe-uH-Rca" secondAttribute="trailing" constant="35" id="LuV-0V-60s"/>
@@ -173,7 +167,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="IPw-N2-2iR" secondAttribute="trailing" constant="40" id="0jG-Q0-cw0"/>
                                             <constraint firstItem="IPw-N2-2iR" firstAttribute="top" secondItem="zuk-Ot-mzN" secondAttribute="top" id="STj-of-Nsq"/>
@@ -200,9 +193,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
