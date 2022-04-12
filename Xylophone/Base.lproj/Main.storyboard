@@ -23,8 +23,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qCX-zH-lQ0">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="102.66666666666667"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55s-S0-oYK">
-                                                <rect key="frame" x="5" y="-1" width="380" height="109.33333333333333"/>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55s-S0-oYK">
+                                                <rect key="frame" x="5" y="0.0" width="380" height="102.66666666666667"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <state key="normal" title="C">
@@ -37,10 +37,10 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="55s-S0-oYK" firstAttribute="top" secondItem="qCX-zH-lQ0" secondAttribute="top" id="3Uy-bw-1PQ"/>
-                                            <constraint firstItem="55s-S0-oYK" firstAttribute="leading" secondItem="qCX-zH-lQ0" secondAttribute="leading" constant="5" id="4fF-h9-MQF"/>
-                                            <constraint firstAttribute="bottom" secondItem="55s-S0-oYK" secondAttribute="bottom" id="Ay4-gh-Trc"/>
-                                            <constraint firstAttribute="trailing" secondItem="55s-S0-oYK" secondAttribute="trailing" constant="5" id="PW3-SS-gop"/>
+                                            <constraint firstAttribute="bottom" secondItem="55s-S0-oYK" secondAttribute="bottom" id="1Kk-xF-Cc1"/>
+                                            <constraint firstItem="55s-S0-oYK" firstAttribute="leading" secondItem="qCX-zH-lQ0" secondAttribute="leading" constant="5" id="2LX-gn-1C0"/>
+                                            <constraint firstAttribute="trailing" secondItem="55s-S0-oYK" secondAttribute="trailing" constant="5" id="V3R-ce-rMT"/>
+                                            <constraint firstItem="55s-S0-oYK" firstAttribute="top" secondItem="qCX-zH-lQ0" secondAttribute="top" id="xF0-Y1-0uv"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKb-8s-nd0">
