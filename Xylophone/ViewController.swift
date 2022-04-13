@@ -21,7 +21,17 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         let SelectedSoundFileName: String = "note\(sender.tag)"
         
+        UIView.animate(withDuration: 0.0) {
+            sender.alpha = 0.5
+        }
+        
         playSound(soundFileName: SelectedSoundFileName)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            UIView.animate(withDuration: 0.0) {
+                sender.alpha = 1.0
+            }
+        }
         
     }
     
